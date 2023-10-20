@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply scroll-smooth scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-slate-100 scrollbar-thumb-rounded;
+}
+
+.navbar.active {
+  color: #facc15;
+}
+
+.leaflet-control-scale.leaflet-control {
+  bottom: 6.5rem;
+}
